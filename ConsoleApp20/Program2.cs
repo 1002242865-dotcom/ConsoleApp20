@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,10 +9,16 @@ namespace ConsoleApp20
 {
     internal class Program2
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
 
-            Student st1=new Student(1234,"Zain",99,true);
+            //Student st2 = new Student();
+           // Teacher t1 = new Teacher();
+           Student st1=new Student(1234,"Zain",99,true);
+            Console.WriteLine(st1.ToString());
+            
+            //st1.Name = "bbbbbbfdffgd";
+            //st1.Name = "abbbbcbcbcb";
             //تتبع مقطع الكود التالي، موضحا قيمة الصفات ومجمعا الطباعة في مكان واحد
              
 

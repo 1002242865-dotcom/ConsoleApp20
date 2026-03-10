@@ -11,13 +11,25 @@ namespace ConsoleApp20
     {
         private double Avg;
         private bool IsSport;
+        private string Name;
 
-        public Student(int Id, string Name, double Avg, bool IsSport)  //عدم كتابة اي استدعاء هي نفسها :base()
+        public Student(int Id, string Name, double Avg, bool IsSport):base(Id,Name)  //عدم كتابة اي استدعاء هي نفسها :base()
         {
             this.Avg = Avg;
             this.IsSport = IsSport;
             Console.WriteLine("Student");
+            base.Name = "Ahmad"; //الصفة الموروثة
+            this.Name= "Hamada";//الصفة التي اضافها الابن
+            Name = "ABC";
+            
+            this.GetId(); //العملية الموروثة
+            base.GetId(); //العملية الموروثة
+            GetId(); //العملية الموروثة
         }
+
+        
+        
+        
         //العملية البنائية اعلاه هي مثال على استدعاء غير صريح للعملية البنائية الفارغة لدى الاب
         //ونستطيع جعلها صريحة من خلال اضافة الامر التالي
         //:base()

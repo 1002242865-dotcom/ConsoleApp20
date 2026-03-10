@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp20
 {
-     class Worker //:Person
+     class Worker :Person
     {
         
         private string Phone;

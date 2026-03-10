@@ -7,12 +7,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp20
 {
-     class Teacher //:Person
+     class Teacher :Person
     {
         
         private bool IsSport;
         private double Salary;
         private string Degree;
+
+        //the deafult construcgtor will call/recall the up constructor of the parent class
+        
+
         // public Teacher(int Id, string Name, bool IsSport, double Salary, string Degree)
         //{
         //    this.Id = Id;

@@ -7,16 +7,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp20
 {
-     class Person
+     class Person 
     {
         private int Id;
-        private string Name;
+        protected string Name;
 
         public Person(int Id, string Name)
         {
             this.Id = Id;
             this.Name = Name;
             Console.WriteLine("Person");
+           
         }
 
         public Person(string Name)
@@ -33,13 +34,10 @@ namespace ConsoleApp20
             Console.WriteLine("Person3");
         }
 
-
-
-
-
-
-
-
+        public int GetId()
+        {
+            return this.Id;
+        }
 
     }
 }
