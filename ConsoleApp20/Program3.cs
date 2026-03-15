@@ -9,7 +9,7 @@ namespace ConsoleApp20
 {
     internal class Program3
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             //Worker w1 = new Worker();
             //Student st1=new Student(123,"Ali",99,true);

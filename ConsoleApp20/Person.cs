@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp20
 {
-     class Person 
+    class Person
     {
         private int Id;
         protected string Name;
@@ -17,14 +17,14 @@ namespace ConsoleApp20
             this.Id = Id;
             this.Name = Name;
             Console.WriteLine("Person");
-           
+
         }
 
         public Person(string Name)
         {
             this.Name = Name;
             this.Id = 777;
-             Console.WriteLine("Person2");
+            Console.WriteLine("Person2");
         }
 
         public Person()
@@ -39,5 +39,19 @@ namespace ConsoleApp20
             return this.Id;
         }
 
+        //سنقوم باضافة العمليات  P1 P2 P3 الى الفئة Person 
+        //على النحو التالي
+        public void P1()
+        {
+            Console.WriteLine("Hi From Person ==> P1");
+        }
+        private void P2()
+        {
+            Console.WriteLine("Hi From Person ==> P2");
+        }
+        protected void P3()
+        {
+            Console.WriteLine("Hi From Person ==> P3");
+        }
     }
-}
+    }
