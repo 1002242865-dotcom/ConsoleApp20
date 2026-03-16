@@ -8,7 +8,7 @@ namespace ConsoleApp20
 {
     internal class Program4
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             //Worker w1 = new Worker();
             //w1.P1();

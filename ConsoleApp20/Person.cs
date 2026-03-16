@@ -53,5 +53,18 @@ namespace ConsoleApp20
         {
             Console.WriteLine("Hi From Person ==> P3");
         }
+
+        public virtual void P4()
+        {             
+            Console.WriteLine("Hi From Person ==> P4");
+        }
+
+        public override string ToString()
+        {
+            return "the Id:" + this.Id + ", the Name:" + Name;
+        }
+
+    
+
     }
-    }
+}

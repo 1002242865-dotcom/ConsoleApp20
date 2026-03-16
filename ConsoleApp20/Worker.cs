@@ -33,8 +33,17 @@ namespace ConsoleApp20
             Console.WriteLine("Hi From Worker ==> W4");
         }
 
-//سنقوم باضافة عملية داخلية في الفئة Worker
-//على النحو التالي
+
+        
+        //عدم احترام للوراثة... لما فئة الابن تقرر تكتب عملية بنفس عنوان عملية اخرى لدى فئة الاب
+        //  public void P1()
+        //{
+        //    Console.WriteLine("Hi From Person ==> P1");
+        //}
+         
+
+        //سنقوم باضافة عملية داخلية في الفئة Worker
+        //على النحو التالي
 
         public void Test()
         {

@@ -14,8 +14,15 @@ namespace ConsoleApp20
         private double Salary;
         private string Degree;
 
+        public override void P4()
+        {
+            Console.WriteLine("Hey Man from Teacher ==>P4");
+        }
+
+
+
         //the deafult construcgtor will call/recall the up constructor of the parent class
-        
+
 
         // public Teacher(int Id, string Name, bool IsSport, double Salary, string Degree)
         //{
