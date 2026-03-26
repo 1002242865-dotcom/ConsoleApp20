@@ -14,6 +14,9 @@ namespace ConsoleApp20
         private double Salary;
         private string Degree;
 
+        //عندما تقرر فئة الابن اعادة تطبيق- Override
+        // دهس عملية افتراضية-virtual موجودة لدى فئة الاب
+        //فانها ملزمة بالمحافظة على نفس العنوان مع استبدال كلمة virtual ب overrride
         public override void P4()
         {
             Console.WriteLine("Hey Man from Teacher ==>P4");

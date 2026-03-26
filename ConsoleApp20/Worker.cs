@@ -34,13 +34,16 @@ namespace ConsoleApp20
         }
 
 
-        
+        public override void P4()
+        {
+            Console.WriteLine("Worker ==> P4");
+        }
         //عدم احترام للوراثة... لما فئة الابن تقرر تكتب عملية بنفس عنوان عملية اخرى لدى فئة الاب
         //  public void P1()
         //{
         //    Console.WriteLine("Hi From Person ==> P1");
         //}
-         
+
 
         //سنقوم باضافة عملية داخلية في الفئة Worker
         //على النحو التالي

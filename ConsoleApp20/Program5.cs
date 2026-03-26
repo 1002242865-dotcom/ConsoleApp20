@@ -17,10 +17,6 @@ namespace ConsoleApp20
             //p1.ToString();
 
             //وظيفتها بشكل عام اعادة نص يصف الكائن الحالي
-
-
-
-
             Teacher t1 = new Teacher();
             t1.P4();
         }
