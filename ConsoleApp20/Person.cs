@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp20
 {
-    class Person
+    class Person //:Object
     {
         private int Id;
         protected string Name;

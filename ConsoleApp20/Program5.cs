@@ -8,7 +8,7 @@ namespace ConsoleApp20
 {
     internal class Program5
     {
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             //Person p1 =new Person(1, "Ahmad");
 

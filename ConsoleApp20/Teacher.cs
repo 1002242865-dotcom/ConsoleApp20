@@ -17,9 +17,20 @@ namespace ConsoleApp20
         //عندما تقرر فئة الابن اعادة تطبيق- Override
         // دهس عملية افتراضية-virtual موجودة لدى فئة الاب
         //فانها ملزمة بالمحافظة على نفس العنوان مع استبدال كلمة virtual ب overrride
+
         public override void P4()
         {
             Console.WriteLine("Hey Man from Teacher ==>P4");
+        }
+
+
+        //بامكان الابن ايضا، اعادة تطبيق العمليات التي قام الاب بدهسها- الاب عملها override
+        //على سبيل المثال نستطيع في الفئة Teacher
+        //اعادة تطبيق العملية ToString
+
+        public override string ToString()
+        {
+            return "I'M Teacher ToString ..mr7ba";
         }
 
 
