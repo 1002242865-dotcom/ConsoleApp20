@@ -9,7 +9,7 @@ namespace ConsoleApp20
 {
     internal class Program6
     {
-        static void Main(string[] args)
+        static void Main6(string[] args)
         {
             //نوع المؤشر يحدد ماهي العمليات التي نستطيع استدعائها
             //اما نوع الكائن فهو الي يحدد ما هي النسخة من العملية التي سيتم تنفيذها- خاصة عندما تكون العمليات افتراضية وان الابناء يستطيعون اعادة تطبيقها
@@ -27,6 +27,11 @@ namespace ConsoleApp20
 
             Employee e1 = new Employee();
             e1.P4();
+
+            //Student st1=new Student(1,"Hamada",90,true);
+
+            //Teacher t1 = new Teacher();
+            //t1.P4();
 
 
 
